@@ -89,8 +89,7 @@ const Index = () => {
             <Link to="/map">
               <Button 
                 size="lg" 
-                variant="outline" 
-                className="border-white text-white hover:bg-white hover:text-civic-blue backdrop-blur-sm font-semibold"
+                className="bg-white text-civic-blue hover:bg-white/90 hover:shadow-xl transform hover:scale-105 transition-all duration-300 font-semibold"
               >
                 Explore Issues Map
               </Button>
