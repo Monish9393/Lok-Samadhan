@@ -43,8 +43,7 @@ const Hero = () => {
             <Link to="/map">
               <Button 
                 size="lg" 
-                variant="outline" 
-                className="border-white text-white hover:bg-white hover:text-civic-blue backdrop-blur-sm font-semibold"
+                className="bg-white text-civic-blue hover:bg-white/90 hover:shadow-xl transform hover:scale-105 transition-all duration-300 font-semibold"
               >
                 View City Map
                 <MapPin className="w-5 h-5 ml-2" />
